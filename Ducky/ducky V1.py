@@ -6,7 +6,7 @@ import winsound
 import time
 import os
 os.chdir(os.path.dirname(os.path.abspath(__file__))) # i dont know what this does
-# but it fixes the problem where the code looks for the file in another place
+# but it fixes the problem where the code looks for files (image and audio) in another place
 
 ducky_window = Tk()
 
@@ -19,7 +19,7 @@ ducky_says = StringVar()
 ducky_says.set("")
 
 def ducky_clicked():
-    winsound.PlaySound("quack.wav", 0) # shoutout to crazyduckman or smth
+    winsound.PlaySound("quack.wav", 0) # shoutout to crazyduckman or smth he owns this audio
     ducky_says.set("I believe in you!")
 
 ducky_button = Button(ducky_window, image=ducky, command=ducky_clicked)

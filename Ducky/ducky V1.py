@@ -1,6 +1,3 @@
-#fk her
-
-
 from tkinter import *
 import winsound
 import time

@@ -24,3 +24,5 @@ Current dependencies:
 In future updates, the program will work on all pc platforms (Linux, Windows, Mac) and will not require python, as of i will add a .exe
 
 The .exe will not require python, i will still leave the .py in, but the .py will require python
+
+too lazy
